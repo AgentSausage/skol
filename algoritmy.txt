@@ -1,0 +1,42 @@
+def generateMoney(a, i):
+    global maxzisk
+    if i == len(a):
+        zisk = vyhodnot(a)
+        if(zisk>maxzisk):
+            maxzisk = zisk
+        print(*a, sep = '',end='')
+        print(f' - {zisk:.2f}')
+        return
+    else:
+        a[i] = 0
+        generateMoney(a, i + 1)
+        a[i] = 1
+        generateMoney(a, i + 1)
+    a[i] = 0
+    
+def vyhodnot(a):
+    global ceny_zlata, suma
+    zisk = float(suma)
+    pocet_zlata = 0.0
+    for i in range(len(a)):
+        if a[i] == 1:  # buy gold
+            pocet_zlata += zisk / ceny_zlata[i]
+            zisk = 0.0
+        elif a[i] == 0 and pocet_zlata > 0:  # sell gold
+            zisk += pocet_zlata * ceny_zlata[i]
+            pocet_zlata = 0.0
+    if zisk == 0:
+        zisk += pocet_zlata * ceny_zlata[len(ceny_zlata)-1]
+    return zisk
+
+
+
+# hlavný program
+ceny_zlata = [34, 32, 30, 35, 33, 32, 38, 40, 37]
+
+suma = 300
+n = len(ceny_zlata)
+a = [0] * n
+maxzisk = -1
+generateMoney(a, 0)
+print(f"maximum je: {maxzisk:.2f}")
