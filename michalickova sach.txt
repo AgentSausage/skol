@@ -1,0 +1,42 @@
+def is_valid_move(board, move, N):
+    x, y = move
+    if 0 <= x < N and 0 <= y < N and board[x][y] == -1:
+        return True
+    return False
+
+def knight_tour(N, r, s):
+    board = [[-1 for _ in range(N)] for _ in range(N)]
+    moves = [(2, 1), (1, 2), (-1, 2), (-2, 1), (-2, -1), (-1, -2), (1, -2), (2, -1)]
+
+    current_position = (r, s)
+    board[r][s] = 0
+
+    for move_count in range(1, N * N):
+        valid_moves = []
+        for move in moves:
+            next_x = current_position[0] + move[0]
+            next_y = current_position[1] + move[1]
+            if is_valid_move(board, (next_x, next_y), N):
+                count = 0
+                for potential_move in moves:
+                    pot_x = next_x + potential_move[0]
+                    pot_y = next_y + potential_move[1]
+                    if is_valid_move(board, (pot_x, pot_y), N):
+                        count += 1
+                valid_moves.append((next_x, next_y, count))
+
+        if not valid_moves:
+            print("No solution exists")
+            return
+
+        valid_moves.sort(key=lambda x: x[2])
+        next_move = valid_moves[0]
+        board[next_move[0]][next_move[1]] = move_count
+        current_position = (next_move[0], next_move[1])
+
+    for row in board:
+        print(row)
+
+# Example usage:
+n = 5  # Size of the chessboard
+knight_tour(n, 3, 3)
