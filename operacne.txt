@@ -1,0 +1,440 @@
+Koľko existuje fáz inštrukčného cyklu?
+5
+Koľko pamätí obsahuje Von Neumannova schéma počítača
+1
+Z hľadiska systémového sa výpočtový systém skladá z:
+a. Vstupného a výstupného podsystému
+ b. Pamä ťového podsystému 
+d. Opera čného podsystému 
+e. Riadiaceho podsystému
+Riadiaci podsystém pracuje v dvoch fázach (Vyberte správne fázy
+a.	Vykonávajúca fáza
+d. Výberová fáz
+
+Operate fáza inštrukčného cyklu je fáza
+Výberu operandu
+Fetch fáza inštrukčného cyklu je fáza
+Výberu in štrukcie štrukcie
+Execute fáza inštrukčného cyklu je fáza:
+Vykonania in štrukcie
+Akú pamäť obsahuje Von Neumannova schéma počítača?
+a.	Operačnú
+Definujte skratku ISA
+e. Instruction Set Architecture
+Aké pamäťové registre poznáte?
+a.	Údajové
+b.	Adresové
+Čo je BIOS:
+Basic Input Output System
+
+Označne správne tvrdenia:
+a.	4 stavový modelb. 2 stavový model
+
+Pre spoluprácu medzi procesmi sa používajú dva mechanismy
+a.	zdieľaná pamäť
+b.	zasielanie správ
+Viacpouživateľské viacúlohové - viacej použivateľov zdieľa rovnaké prostriedky
+Pravda
+Definujte operačný systém na funkciách
+c.	virtuálny po čítač
+d.	správca zdrojov
+Základným účelom operačného systému je:
+zdie ľanie prostriedkov
+
+Vrstvová štruktúra operačného systému
+a. Systém reálneho času
+b. Správa pamäti 
+c. Správa periférií 
+d. Používateľské programy 
+e. Hardvér 
+f. Komunikácia procesov
+
+K pojmu vyberte správny popis
+Jadro – trvale bežiaci program Max. hodnotenie 1,00 všetky ostatné je možné chápať ako aplikačné programy
+Riadiaci program riadi vykonávanie použivateľských programov a operácií I/O zariadení.
+Správca prostriedkov udržuje a prideluje zdroje systému
+S neomedzeným prepínaním umožňujú spustenie niekoľkých „normálnych“ programov a prepínanie medzi nimi .
+Pravda
+Ktoré dva stavy obsahuje 2 – stavový model?
+Aktivovaný a deaktivovaný
+
+
+Aké je to preemptívne plánovanie?
+b.	plánovanie s predbiehaním
+Čo predstavuje doba obrátky ako stratégia plánovania?
+a.	minimalizovať dobu spracovania každej dávkovej úlohy
+Aké je to nepreemptívne plánovanie?
+plánovanie bez predbiehania
+
+Vyberte správnych správcov operačného systému
+a.	Networking b. Správa procesorov c. Správa procesov
+Ktoré stavy obsahuje 3 stavový model ?
+b. Bežiaci 
+d. Pripravený 
+e. Čakajúci
+
+Ktoré zdroje potrebuje proces pre svoju činnosť?	
+a. pamäť 
+b. súbory 
+ d. procesor	
+Koľko stavové modely poznáte ?
+2,3,5
+
+Čo predstavuje priechodnosť ako stratégia plánovania?
+a.	maximalizovať množstvo úloh spracovaných za jednotku času
+Ktoré sú stratégie plánovania?
+a. priechodnosť
+c. efektivita
+d. doba obrátky
+ e. čas odozvy 
+g. spravodlivosť
+Koľko poznáte druhov plánovanie procesov? 
+a.	3
+Procesy môžu zdieľať dáta pomocou:
+Súborov, Posielania správ
+
+Petriho siete sú nástrojom vhodným na analýzu systémov, ktoré sú: 
+a. Distribuované
+ b. Paralelné 
+c. Asynchrónne 
+e. Súbežné 
+f. Nedeterministické
+Koľko vlákien sa v každom procese vytvorí automaticky?
+1
+Aké grafy predstavuje Petriho sieť?
+a.	Bipartitný b. Orientovaný
+Aké uzly obsahuje Petriho sieť?
+c.	Miesta e. Prechody
+Rozdelenie na vlákna nadefinuje:
+d.	Autor programu
+Ktoré sú časti procesu konštrukcie modelu?
+b.	Realita
+ Simulačný model
+ Abstraktný model
+e.	Znalosti
+Každé vlákno si udržiava svoj vlastný:
+a. TCB (ThreadCB)
+ c. Registre 
+PC (Program Counter) 
+f. Zásobník
+Výhody použitia vláken:
+a.	Vlákno sa ukončí rýchlejšie ako proces
+f.	Vlákno sa vytvorí rýchlejšie ako proces
+
+Reálna (fyzická) pamäť je:
+a.	2^n bajtov
+Kde inštrukcie strojového kódu adresujú operandy?
+V pamäti
+Aké problémy rieši virtuálna pamäť?
+Ochrany, relokácie
+Akú úlohu riešia správca pamäti?
+a. Udržovať 
+b. Zistiť ochranu 
+d. Odoberať
+e. Prideľovať 
+f. Zaraďovať
+
+Koľko minimálne vecí o každom bloku musí vedieť správca pamäti?
+2 (dlzku a vlastnika)
+Kto nastavuje segment obsahu registra?
+Operačný systém		
+
+Na presun čoho slúži Inštrukcia MOV?
+Dát
+Ktorá časť musi byť označená v priamom adresovaní?
+a)	Pamäťová bunka
+Ktoré časti nie sú označené v nepriamom adresovaní?
+a.	dáta
+b.	adresa
+Na ktoré časti je rozdelený program pri prekrývaní?
+Moduly
+Na ktorú činnosť sa využívajú kanály DMA?
+dátové kopírovanie blokov
+Komu poskytuje správa zaradení funkcie V/V zariadení?
+Procesom
+
+Čím sa riadia I/O zariadenia?
+Inštrukciami
+Ktorá zbernica prepája zásuvné jednotky?
+Vonkajšia
+Definujte skratku DMA:
+Direct Memory Access
+Ktorými úkonmi je vyjadrené prerušenie postupnosti obsluhy?
+vlastná obsluha preru šenia
+obnovenie stavu procesora 
+e.	uchovanie stavu procesora
+Ako vieme ešte pomenovať vnútornú zbernicu?
+Obvodová
+
+Kde je uložený kanál?
+V  hlavnej pamäti		
+
+V ktorej kapacitnej jednotke sa ukladajú údaje na pevný disk?
+B
+Na aké časti je rozdelená stopa?
+Sektory
+Aké verzie súborového systému FAT existujú?
+FAT12, FAT16, FAT32
+Koľko existuje práv k súborom? (odpoveď napíšte v tvare čísla)
+3
+Ktoré sú kritéria na uloženú údajov z dlhodobého hľadiska?
+b. Perzistencia 
+e. Zdieľanie
+f. Dlhodobosť
+
+
+Označene správne typy súborových systémov
+c. Diskové súborové systémy 
+e. Databázové súborové systémy 
+f. Sieťové súborové systémy
+Koľko bitová je disková adresácia pri NTFS? (odpoveď napíšte v tvare čísla)
+64	
+V čom sa vyjadruje kompresný pomer?
+V percentách
+V akej štruktúre sú v adresároch usporiadané súbory?
+Stromovej
+Aká maximálna veľkosť v GB súboru môže byť pri súborovom systéme HPFS? (odpoveď napíšte v tvare čísla)
+2GB
+Ktorý systém má na starosti ukladanie údajov?
+Súborový systém	
+
+Ktoré komprimačné algoritmy prihliadajú k logickej hodnote dát?
+Logické,fyzické
+
+Akú komunikáciu zabezpečuje transportná vrstva?
+END-TO-END
+Čím sa začína a končí správa v spojovej vrstve?
+Značka alebo flag
+
+Na ktorých vrstvách je umiestnený sieťový operačný systém?
+Transportná, relačná, sieťová
+Aké typ blokov sa prenáša na sieťovej vrstve?
+Paket
+Ktorý protokol zabezpečuje prenos paketov bez potvrdzovania?
+IPX alebo UDP opytat sa ak tak
+
+Do čoho linková vrstva prepája údaje?
+Rámcov alebo frame
+
+Ktorá vrstva sa zaoberá riadením siete?
+Sieťova??? Netusim
+
+V akej jednotke sa odosielajú údaje na fyzickej vrstve?
+  bity b
+
+Ktorá vrstva je zodpovedná za tvorbu protokolov pre prenos údajov?
+Transportná
+Čo stanovuje prezenčná vrstva?	
+Tvar údajov
+
+
+
+
+
+
+
+
+
+Úlohou DMA kanálov je kopírovanie modulov dát medzi pamäťou a vstupno-výstupným zariadením
+Pravda
+
+Fyzická pamäť nerieši problém ochrany a relokácie
+Pravda ???
+Jednovláknový operačný systém nepozná pojem vlákno.
+PRAVDA ???
+Veľkosť virtuálnej pamäti nesmie presahovať veľkosť fyzickej
+nepravda
+Počítač využíva hviezdicovú  štruktúru adresárov
+Počítač využíva hviezdovú  štruktúru adresárov
+
+nepravda
+Fyzická vrstva sa zaoberá výhradne prenosom rámcov
+NEPRAVDA ASI zaobera sa prenosom hlavne ale ci ramcov to neviem ramce prenasa linkova/spojova
+Počas spustenia procesu je nevyhnutné nahrať program do pamäte
+pravda
+Životný cyklus procesu sa môže charakterizovať pomocou prechodov medzi stavmi  procesora
+Nepravda -- opravene 
+Životný cyklus procesu v operačnom systéme môžeme charakterizovať pomocou prechodov medzi stavmi procesu.
+tu je medzi stavmi porcesu nie procesora
+
+
+Vstupné a výstupné zariadenia využívajú tri základné techniky  pre riadenie procesu
+****tam malo byt asi prenosu****
+Nepravda
+Vyzivaju styri
+Súborový systém nemôže používať počítačové záznamové zariadenie
+Nepravda
+
+
+
+
+
+
+
+Pri NTFS je adresácia disku 32 bitová.
+Nepravda 
+je 64
+Proces je systémový objekt vyznačený pamäťovým priestorom.
+PRAVDA
+
+Operačný podsystém vykonáva všetky aritmetické a logické transformácie
+Nepravda – oprava ?
+https://edu.ukf.sk/mod/book/view.php?id=92018&chapterid=40819
+
+Vnútorná zbernica prepája zásuvné jednotky.
+NEPRAVDA
+
+Pri počítačových sieťach protokol definuje pravidlá komunikácie na rovnoľahlých vrstvách
+PRAVDA
+
+Komprimačný program nemusí vlastniť funkciu dekomprimácie.
+NEPRAVDA
+
+Proces pre svoju činnosť nepotrebuje zdroje.
+nepravda
+
+Súbor nemôže obsahovať adresáre ani ďalšie súbory,
+pravda
+
+Adresár združuje logicky súvisiace súbory
+PRAVDA
+
+Systémový program poskytuje prostredie pre vývoj programov
+PRAVDA ???
+
+Pri nepreemptívnom plánovaní sa proces nemusí procesoru sám vzdať.
+NEPRAVDA
+
+
+Plánovanie činnosti disku patrí do aktivity správy primárnej pamäte.
+NEPRAVDA – chat: tym sa zaobera sekundarna pamat primarna je na ram
+
+Súbor nemôže obsahovať adresáre
+Pravda
+
+Proces môže pristupovať k pamäti, ktorá je vyhradená pre iný proces
+NEPRAVDA ???
+https://edu.ukf.sk/mod/book/view.php?id=92033&chapterid=40937
+tuto mi to prislo najlepsie ale ak ma jeden proces rovnaky kluc ako druhy potom ma pristup k datam aj druheho procesu nie
+
+Správa operandov patrí do štruktúry operačného systému.
+NEPRAVDA ??? nenaslo sa
+
+Správca zariadení poskytuje funkcie procesom iba pre vstupné zariadenia.
+Toto som k tomu našiel =>
+Správa zariadení  poskytuje procesom funkcie vstupných a výstupných zariadení
+NEPRAVDA teda
+
+Súborový systém nemôže používať počítačové záznamové zariadenie.
+NEPRAVDA
+
+Životný cyklus procesu sa môže charakterizovať pomocou prechodov medzi stavmi procesora.
+ODPOVED => Životný cyklus procesu v operačnom systéme je možné charakterizovať pomocou prechodov medzi stavmi procesu.
+NEPRAVDA
+
+Pamäťový podsystém netvorí blok adresovaných pamäťových buniek.
+NEPRAVDA ??? neviem najst slovo bunka v pamatovych castiach kurzov
+
+Vlákno je objekt, ktorý vzniká v rámci procesora.
+NEPRAVDA
+
+Spojová vrstva sa zaoberá prepájaním údajov do paketov
+NEPRAVDA
+
+Run - length - Encoding označovaný skratkou RLE je bezstratový algoritmus
+RLE je bezstravový algoritmus?
+pravda
+Čím je riadená virtuálna pamäť?
+Operačným systémom
+Komprimujúci algoritmus nemusí obsahovať dekomprimujúci algoritmus?
+nepravda
+Komprimačný program musí byť samozrejme schopný dekomprimovať údaje do pôvodnej podoby
+
+
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+
+
+Ktoré dva stavy obsahuje 2 – stavový model
+
+-nebežiaci a bežiaci – 100%
+
+
+
+Programy je možné rozdeliť na vlákna, ktoré sa budú vykonávať
+
+-paralelne 100%
+
+
+
+Proces predstavuje rozhranie medzi operačným systémom a procesom
+
+-pravda 100%
+
+
+
+Súbor musí mať svoju štruktúru
+
+-ASI pravda neviem ci struktura znamena ze musi mat nazov priponu atd..
+´
+Správca zariadení poskytuje funkcie procesom iba pre vstupné zariadenia 
+Nepravda ASI neviem to urcite u
+Uz je vyssie
+transportná vrstava rozkladá údaje na pakety
+transportná vrstva rozkladá údaje na pakety
+
+ pravda 100%
+
+
+
+
+
+Súbor predstavuje zoskupenie registrov.
+
+-nepravda 
+Pretoze Súbor je v osobných počítačoch (najmenšie možné) logické zoskupenie údajov - súbor údajov (dát).
+
+
+	Chyba otazka
+
+Označte správne tvrdenia:
+
+2	stavový model,
+
+3	stavový model,
+
+5 stavový model, 100%
+
+
+
+RLE príklad: AAhAdddSS – 2AhA3d2S číslo prvé
+
+ 
+Vytvorenie, pripravený, procesu je priradený procesor, bežiaci, ukončenie,
+
+I/0 alebo iná udalosť je ukončená, proces musí čakať na dokončenie I/O alebo inú udalosť Čakajúci, ukončenie, 3 stavový model
+
+
+ 
+
+Vytvorenie, pripravený, spustenie, bežiaci, ukončenie, obnova, odloženie, čas priorita, aktivácia – vznik udalostí, potlačenie – čakanie na udalosť , ukončenie, odložený pripravený
+
+Čekajúci, aktiváci – vznik udalosti, odloženie, odloženie čakajúci, 5 stavový model
+
+
+ 
+
+TU PRIDAVAM DALSIE OTAZKY
+
+
+
+
+
+Na čo slúži inštrukcia MOV?
+Dát
+
+
+Súbor nemôže obsahovať adresáre ani ďalšie súbory,
+pravda
+Chyba odpoved vyssie pravda 
+
